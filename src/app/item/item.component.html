@@ -1,0 +1,16 @@
+<div class="card">
+    <img [src]="imgurl" class="img-fluid" >
+    <div class="card-body">
+
+      <div class="flex-row d-flex">
+        <div class="col-9 text-start">
+          <h4 class="card-title" >{{name}}</h4>
+        </div>
+        <div class="col-3 text-end">
+          <p class="card-text fw-medium" >{{price}}</p>
+          <span *ngIf="priceBS"  class=" fw-light text-decoration-line-through text-secondary">{{priceBS}}</span>
+        </div>
+      </div>
+
+    </div>
+</div>

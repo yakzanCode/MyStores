@@ -1,0 +1,43 @@
+@media  only screen and (min-width : 768px) {
+    .card {
+      display: block !important;
+      width: 18rem !important;
+      height: 380px !important;
+      flex:none !important;
+      border: 1px solid transparent;
+      border-radius: 0;
+    }
+    img{
+        width: 100%;
+        height: 18rem;
+    }
+    h4{
+        font-size: 19px;
+    }
+    span{
+        margin-top: -30px;
+    }
+}
+
+@media  only screen and (max-width : 520px) {
+    .card {
+      display: block !important;
+      width: 12rem !important;
+      height: 350px;
+      flex:none !important;
+    }
+    img{
+        width: 100%;
+        height: 12rem;
+    }
+    h4{
+        font-size: 15px;
+        margin-left: -10px;
+    }
+    span{
+        margin: 0 0 0 116px;
+    }
+    p{
+        margin-left: 20px;
+    }
+}

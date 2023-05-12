@@ -1,0 +1,8 @@
+<owl-carousel-o [options]="customOptions">
+    <ng-template *ngFor="let tb of filteredArray" carouselSlide>
+        <item-bestseller 
+        [name]="tb.name" 
+        [p1]="tb.p1">
+        </item-bestseller>
+    </ng-template>  
+</owl-carousel-o>

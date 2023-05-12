@@ -1,0 +1,20 @@
+<!-- <div class="row">
+    <div class="col-3" *ngFor="let tb of filteredArray">
+        <item 
+        [name]="tb.name" 
+        [imgurl]="tb.imgurl" 
+        [price]="tb.price" 
+        [priceBS]="tb.priceBS"
+        ></item>
+    </div>
+</div> -->
+
+<owl-carousel-o [options]="customOptions">
+    <ng-template *ngFor="let tb of filteredArray" carouselSlide>
+        <item 
+        [name]="tb.name" 
+        [imgurl]="tb.imgurl" 
+        [price]="tb.price">
+        </item>
+    </ng-template>  
+</owl-carousel-o>

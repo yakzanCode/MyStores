@@ -1,0 +1,55 @@
+<!-- <navbar2
+[section]="Section"
+></navbar2> -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12">
+            <div class="row mb-5 mt-5">
+                <div class="col-12 w-100" >
+                    <img class="w-100" [src]="headImg" alt="">
+                </div>
+            <div class="row mt-5 mb-2">
+                <div class="col-4">
+                    <h2>On Sale</h2>
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="col-12">
+                    <items-os
+                    [onSale]="true"
+                    [cat]="Category"
+                    [sec]="Section"
+                    ></items-os>
+                </div>
+            </div>
+            <div class="row mt-5 mb-2">
+                <div class="col-4">
+                    <h2>Bestseller</h2>
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="col-12">
+                    <items-bestseller
+                    [bestS]="true"
+                    [cat]="Category"
+                    [sec]="Section"
+                    ></items-bestseller>
+                </div>
+            </div>
+            <div class="row mt-5 mb-2">
+                <div class="col-4">
+                    <h2>Our New</h2>
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="col-12">
+                    <items-new
+                    [New]="true"
+                    [cat]="Category"
+                    [sec]="Section"
+                    ></items-new>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
